@@ -3,7 +3,7 @@
 #Data inicio: 02/02/2023
 
 while True:
-    NomeFuncionario = str(input("Qual o seu nome?")) #preciso ver como incluir o nome nas horasextras e horastrabalhas
+    NomeFuncionario = str(input("Qual o seu primeiro nome?")) #como incluir o nome nas horasextras e trabalhas e como habilitar mais de um nome
     if len(NomeFuncionario) >1 and NomeFuncionario.isalpha():
         break
     print("Nome inválido. Digite um nome válido")
