@@ -1,4 +1,4 @@
-#Exercise 003: Idade de um nadador (IF)
+#Exercise 003: Idade de um nadador (IF).
 #Dev: Emanoel G Malheiros
 #Data inicio: 04/02/2023
 
