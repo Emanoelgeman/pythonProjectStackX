@@ -20,13 +20,13 @@ while True:
 if idade <5:
     print(nome,"infelizmente não temos uma categoria para", idade,"anos de idade.")
 
-if idade >=5 and idade<=7:
+elif idade >=5 and idade<=7:
     print(nome,"com", idade,"anos de idade, sua categoria é: Infantil.")
-if idade >=8 and idade<=10:
+elif idade >=8 and idade<=10:
     print(nome,"com", idade,"anos de idade, sua categoria é: Juvenil.")
-if idade >=11 and idade<=15:
+elif idade >=11 and idade<=15:
     print(nome,"com", idade,"anos de idade, sua categoria é: Adolescente.")
-if idade >=16 and idade<=30:
+elif idade >=16 and idade<=30:
     print(nome,"com", idade,"anos de idade, sua categoria é: Adulto.")
-if idade >30:
+else:
     print(nome,"com", idade,"anos de idade, sua categoria é: Sênior.")
