@@ -1,6 +1,6 @@
 #Exercise 005: Empresa com 10 funcionários (While)
 #Dev: Emanoel G Malheiros
-#Data inicio: 09/02/2023
+#Data inicio: 09/02/2023.
 
 # código, númeroDeHorasTrabalhadasMês, turnoDeTrabalho (M – matutino; V – vespertino; N – noturno),
 # categoria (O – operário; ou G – gerente), valorHoraTrabalhada..
