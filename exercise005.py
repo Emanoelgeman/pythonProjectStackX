@@ -37,7 +37,8 @@ while contagemfuncionario < 10: #loop de funcionarios
             valorHoraTrabalhada = salariominimo * 0.15
         elif categoria == "O" and turnoDeTrabalho == "N":
             valorHoraTrabalhada = salariominimo * 0.13
-        elif categoria == "O" and turnoDeTrabalho == "M" or turnoDeTrabalho == "V": # O e V não está indo a hora trabalhada correta.
+        else:
+            categoria == "O" and turnoDeTrabalho == "V" or turnoDeTrabalho == "M" # O e V não está indo a hora trabalhada correta.
             valorHoraTrabalhada = salariominimo * 0.10
 
         salarioinicial = valorHoraTrabalhada * horasTrabalhadas
@@ -46,7 +47,8 @@ while contagemfuncionario < 10: #loop de funcionarios
             auxilioalimentacao = salarioinicial * 0.20
         elif salarioinicial >= 300 and salarioinicial <= 600:
             auxilioalimentacao = salarioinicial * 0.15
-        elif salarioinicial > 600:
+        else:
+            salarioinicial > 600
             auxilioalimentacao = salarioinicial * 0.05
 
         salariofinal = salarioinicial + auxilioalimentacao
