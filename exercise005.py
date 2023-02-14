@@ -39,7 +39,7 @@ while contagemfuncionario < 10:  # loop de funcionarios
             valorHoraTrabalhada = salariominimo * 0.13
         else:
             categoria == "O" and turnoDeTrabalho == "V" or turnoDeTrabalho == "M"  # O e V não está indohoratrabalhada
-            valorHoraTrabalhada = salariominimo * 0.10
+            valorHoraTrabalhada = salariominimo * 0.10  # nao sei porque o valor da hora trabalha O e V nao fica em 45
 
         salarioinicial = valorHoraTrabalhada * horasTrabalhadas
 
