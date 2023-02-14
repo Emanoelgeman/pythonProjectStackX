@@ -1,13 +1,13 @@
-#Exercise 005: Empresa com 10 funcionários (While)
-#Dev: Emanoel G Malheiros
-#Data inicio: 09/02/2023.
+# Exercise 005: Empresa com 10 funcionários (While)
+# Dev: Emanoel G Malheiros
+# Data inicio: 09/02/2023.
 
 # código, númeroDeHorasTrabalhadasMês, turnoDeTrabalho (M – matutino; V – vespertino; N – noturno),
 # categoria (O – operário; ou G – gerente), valorHoraTrabalhada..
 
 salariominimo = 450
 contagemfuncionario = 0
-while contagemfuncionario < 10: #loop de funcionarios
+while contagemfuncionario < 10:  # loop de funcionarios
     try:
         codigoFuncionario = str(input("Digite o seu Código: "))
         while True:
@@ -38,7 +38,7 @@ while contagemfuncionario < 10: #loop de funcionarios
         elif categoria == "O" and turnoDeTrabalho == "N":
             valorHoraTrabalhada = salariominimo * 0.13
         else:
-            categoria == "O" and turnoDeTrabalho == "V" or turnoDeTrabalho == "M" # O e V não está indo a hora trabalhada correta.
+            categoria == "O" and turnoDeTrabalho == "V" or turnoDeTrabalho == "M"  # O e V não está indohoratrabalhada
             valorHoraTrabalhada = salariominimo * 0.10
 
         salarioinicial = valorHoraTrabalhada * horasTrabalhadas
@@ -52,16 +52,8 @@ while contagemfuncionario < 10: #loop de funcionarios
             auxilioalimentacao = salarioinicial * 0.05
 
         salariofinal = salarioinicial + auxilioalimentacao
+        print(codigoFuncionario, "você trabalhou:", int(horasTrabalhadas), "horas,", "cada hora sendo: R$", valorHoraTrabalhada)
+        print("com um salário inicial de: R$", salarioinicial, "mais um auxilio de: R$", auxilioalimentacao)
+        print("totalizando: R$", salariofinal)
 
-        print(codigoFuncionario,"você trabalhou:",int(horasTrabalhadas),"horas,","cada hora sendo: R$",valorHoraTrabalhada)
-        print("com um salário inicial de: R$",salarioinicial,"mais um auxilio de: R$",auxilioalimentacao)
-        print("totalizando: R$",salariofinal)
-
-
-
-
-
-
-    finally: contagemfuncionario +=1
-
-
+    finally: contagemfuncionario += 1
